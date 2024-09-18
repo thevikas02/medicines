@@ -5,6 +5,7 @@ import pandas as pd
 import pickle
 
 # load databasedataset===================================
+df = pd.read_csv("Training.csv")
 sym_des = pd.read_csv("symtoms_df.csv")
 precautions = pd.read_csv("precautions_df.csv")
 workout = pd.read_csv("workout_df.csv")
